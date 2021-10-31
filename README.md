@@ -16,13 +16,13 @@ Basic port sniffer cli tool built in Rust.
 **Steps to run**
 1. ```git clone https://github.com/cryptus-neoxys/sniffy.git```
 2. ```cd sniffy```
-3. ```cagro build```
+3. ```cargo build```
 4. ```cargo run -- -h```
 
 **Create executable**
 1. ```cargo build --release```
 2. ```cd target/{exec_format}/```
-3. ```chmod +x sniffy``` or Just run the executable on platform
+3. ```chmod +x sniffy # or Just run the executable on your platform```
 4. ```./sniffy -h```
 
 <!-- !TODO -->
